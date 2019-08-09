@@ -1,0 +1,41 @@
+.DiamondKeyItem {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #777; */
+}
+
+.DiamondKeyItem button {
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    margin: auto;
+    background-color: red;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.DiamondKeyItem ol {
+    margin-top: 57px;
+    margin-left: -45px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.DiamondKeyItem li {
+    border: 2px solid;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.DiamondKeyItem p {
+    transform: rotate(-45deg);
+    font-size: 18px;
+    position: absolute;
+    margin-top: -10px;
+}

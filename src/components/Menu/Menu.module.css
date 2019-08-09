@@ -1,0 +1,23 @@
+.Menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+    height: 100px;
+    /* border: 1px solid; */
+    /* background-color: rgb(206, 206, 206); */
+}
+
+@media (min-width: 700px) {
+    .Menu {
+        width: 680px;
+       
+    }
+}
+
+@media (min-width: 1000px) {
+    .Menu {
+        width: 750px;
+    }
+}

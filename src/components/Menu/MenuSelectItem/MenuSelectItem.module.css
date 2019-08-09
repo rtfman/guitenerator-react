@@ -1,0 +1,17 @@
+.MenuSelectItem {
+    position: relative;
+    height: 28px;
+    font-size: 20px;
+    width: 100px;
+    text-align-last: center;
+    margin-top: 45px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid rgb(133, 133, 133);
+    color: rgb(82, 82, 82);
+    transition: all .3s ease-in-out ;
+} 
+
+.MenuSelectItem:active {
+    height: 45px;
+}

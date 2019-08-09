@@ -1,0 +1,7 @@
+.MenuSelectItemOption {
+    margin: auto;
+    text-align: center;
+    color: rgb(82, 82, 82);
+    height: 45px;
+    transition: all .3s ease-in-out;
+}

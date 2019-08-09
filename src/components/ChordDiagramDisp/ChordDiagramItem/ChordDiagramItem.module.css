@@ -1,0 +1,22 @@
+.ChordDiagramItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    border: 1px solid green;
+    height: 275px;
+    width: 190px;
+    text-align: center;
+}
+
+.ChordDiagramItem button {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 253, 253);
+    outline: none;
+    border: 1px solid;
+    padding: 0;
+}
+
+
